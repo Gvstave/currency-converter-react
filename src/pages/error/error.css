@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1,
+p {
+    font-weight: bold;
+}
+
+p:nth-of-type(2) {
+    color: #ccc;
+    background-color: #eee;
+}
+
+p:nth-of-type(2) i:nth-of-type(2) {
+    color: #333;
+    border: 2px solid gray;
+    cursor: pointer;
+}
