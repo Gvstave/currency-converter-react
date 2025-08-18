@@ -1,7 +1,9 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 
-const apiUrl = import.meta.env.VITE_API_URL;
+const apiKey = import.meta.env.VITE_API_KEY;
+const apiUrl = `https://openexchangerates.org/api/latest.json?app_id=${apiKey}`;
+
 
 const defaultFromCurrency = 'USD';
 const defaultToCurrency = 'ZMW';
@@ -28,6 +30,8 @@ const App = () => {
                 setError(err.message);
             }
         };
+
+        console.log(fetchRates())
 
         fetchRates();
     }, []);
