@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import './Home.css';
-import React, { useEffect, useState } from 'react';
+import './home.css';
+import { useEffect, useState } from 'react';
 
 const apiKey = import.meta.env.VITE_API_KEY;
 const apiUrl = `https://openexchangerates.org/api/latest.json?Home_id=${apiKey}`;
@@ -63,7 +63,7 @@ const Home = () => {
                 </span>
             </header>
 
-            <main>
+            <main className='home'>
                 <h2>Currency Converter</h2>
                 <div>
                     <span>

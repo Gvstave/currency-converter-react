@@ -11,7 +11,7 @@ export const ErrorPage = () => {
             <p>Sorry, an unexpected error has occurred.</p>
             <p>
                 <span>{error?.statusText || error?.message || "Unknown error"}</span>
-                <span><Link to={'/'}>Main</Link></span>
+                <span><Link className="link" to={'/'}>Main</Link></span>
             </p>
         </main>
     )

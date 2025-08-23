@@ -39,7 +39,7 @@ header span .bottom {
     margin-top: 5px;
 }
 
-main {
+.home {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -53,37 +53,37 @@ main {
     box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
 }
 
-main h1 {
+.home h1 {
     color: #01064a;
     margin-bottom: 20px;
 }
 
-main div {
+.home div {
     display: inherit;
     flex-direction: inherit;
 }
 
-main div label {
+.home div label {
     display: block;
     margin-bottom: 6px;
     color: #555;
 }
 
-main div span {
+.home div span {
     border: 1px solid lightgray;
     margin: 10px 0px;
     padding: 10px;
     border-radius: 8px;
 }
 
-main div span input {
+.home div span input {
     padding: 5px;
     background-color: inherit;
     border-radius: 3px;
     border: none;
 }
 
-main div span:hover {
+.home div span:hover {
     border: 1px solid #077bff;
     outline: none;
     background-color: whitesmoke;
@@ -104,7 +104,6 @@ main div span:hover {
     background-color: rgba(7, 123, 255, 0.273);
     
 }
-
 
 span section {
     display: flex;
